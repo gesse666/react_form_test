@@ -1,0 +1,149 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 22px 51px;
+  box-shadow: 0px 1px 0px rgba(17, 17, 17, 0.1);
+}
+
+.logo {
+  height: 32px;
+}
+
+.list {
+  display: flex;
+}
+
+.list__link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: rgba(17, 17, 17, 0.48);
+  padding-right: 24px;
+}
+
+.list__item {
+  list-style: none;
+}
+
+.form {
+  max-width: 616px;
+  margin: 0 auto;
+}
+
+.form__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #111111;
+}
+
+.form__label {
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 16px;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+
+.form__input {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #111111;
+  padding-top: 2px;
+  padding-bottom: 6px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form__title--wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-button {
+  background-position-y: center;
+  background-position-x: 10px;
+  padding-left: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #01a7fd;
+  border: 2px solid #01a7fd;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 10px 20px 10px 48px;
+}
+
+.child-form {
+  display: flex;
+}
+
+.child-form__label {
+  width: 42%;
+  margin-right: 18px;
+}
+
+.child-form__btn {
+  font-size: 14px;
+  color: #01a7fd;
+  font-family: "Montserrat", sans-serif;
+}
+
+.save-button {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: #01a7fd;
+  border: none;
+  border-radius: 100px;
+}
+
+.preview {
+  margin: 0 auto;
+  width: 616px;
+}
+
+.preview__parent {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 60px;
+}
+
+.preview__child {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  background: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 30px;
+  background: #fafafa;
+  box-shadow: 0px 1px 0px rgba(17, 17, 17, 0.1);
+  color: #000000;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  text-align: center;
+}
